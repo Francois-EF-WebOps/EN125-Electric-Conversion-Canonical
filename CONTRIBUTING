@@ -1,0 +1,19 @@
+# Contributing to EN125-Electric-Conversion-Canonical
+
+Thank you for your interest in contributing.
+
+## What to Know Before You Contribute
+- This repository is frozen at version v1.0.0-canonical.
+- Contributions must be proposed via fork and pull request.
+- See FREEZE.md for canonical status.
+
+## How to Contribute
+1. Fork the repository.
+2. Create a topic branch (e.g., `feature/battery-inspection`).
+3. Add updates in the appropriate stage/phase directory.
+4. Open a pull request referencing the canonical tag.
+
+Issues are for:
+- Documentation gaps
+- Clarification requests
+- Errata against the frozen version
