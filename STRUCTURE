@@ -1,0 +1,62 @@
+CANONICAL FOLDER STRUCTURE
+
+This repository follows a staged, phase-based structure and this document
+serves as the normative directory guide.
+
+Root
+│
+├── README.md
+├── FREEZE.md
+├── FORKING_RULES.md
+├── LICENSE
+├── LICENSE_CONTEXT.md
+├── STRUCTURE.md
+│
+├── 00_CONTEXT/
+│   ├── project_intent.md
+│   ├── scope_and_limits.md
+│   └── regulatory_notes_mauritius.md
+│
+├── 01_STAGE_FOUNDATION/
+│   ├── assumptions_and_constraints.md
+│   ├── safety_principles.md
+│   └── tools_and_skill_baseline.md
+│
+├── 02_STAGE_MECHANICAL/
+│   ├── frame_analysis.md
+│   ├── frame_reinforcement_concept.md
+│   ├── motor_mounting.md
+│   └── torque_and_fasteners.md
+│
+├── 03_STAGE_ELECTRICAL/
+│   ├── system_architecture.md
+│   ├── controller_canonical_profile.md
+│   ├── wiring_and_protection.md
+│   └── dc_dc_and_auxiliary.md
+│
+├── 04_STAGE_BATTERY/
+│   ├── battery_safety.md
+│   ├── swap_ready_form_factor.md
+│   ├── bms_and_protection.md
+│   └── inspection_and_maintenance.md
+│
+├── 05_STAGE_INTEGRATION/
+│   ├── system_checks.md
+│   ├── failure_modes.md
+│   └── first_power_on.md
+│
+├── 06_STAGE_OPERATION/
+│   ├── riding_limits.md
+│   ├── maintenance_schedule.md
+│   └── long_term_degradation.md
+│
+├── 07_ALTERNATIVES/
+│   ├── motor_alternatives.md
+│   ├── battery_chemistry_alternatives.md
+│   ├── frame_variants.md
+│   └── low_resource_paths.md
+│
+└── 99_APPENDICES/
+    ├── glossary.md
+    ├── measurement_templates.md
+    └── student_notes.md
