@@ -1,0 +1,42 @@
+STUDENT FORK CHECKLIST
+
+This checklist is mandatory reading before forking.
+
+Purpose:
+To help students learn safely, avoid common traps, and preserve lineage
+with the canonical documentation.
+
+BEFORE YOU FORK
+[ ] I have read README.md
+[ ] I understand this is not a kit or certification
+[ ] I have read FREEZE.md
+[ ] I understand why the documentation is frozen
+[ ] I accept responsibility for my own safety and compliance
+
+WHEN YOU FORK
+[ ] Fork from release tag v1.0.0-canonical
+[ ] Do not fork from an untagged branch
+[ ] Rename the repository following the required naming convention
+[ ] Update README.md to state what is different from EN125
+
+AFTER YOU FORK
+[ ] Add a clear “Differences from Canonical” section
+[ ] Document frame differences explicitly
+[ ] Document electrical differences explicitly
+[ ] Do not remove safety sections
+[ ] Do not downgrade specifications silently
+
+WHAT YOU MUST NOT DO
+[ ] Do not claim certification or approval
+[ ] Do not present this as a finished product
+[ ] Do not remove inspection or maintenance requirements
+[ ] Do not skip frame analysis
+
+GOOD PRACTICE
+[ ] Keep changes minimal and well-documented
+[ ] Add photos, sketches, and measurements
+[ ] Treat this as engineering, not hacking
+[ ] Ask questions publicly and document answers
+
+Forking is learning.
+Learning requires discipline.
