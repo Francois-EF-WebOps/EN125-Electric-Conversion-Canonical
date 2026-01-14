@@ -1,0 +1,54 @@
+NEOCODE DEFINITION AND RULES
+
+NEOCODE is a neutral identifier used to describe the adapted platform
+without implying ownership, certification, or commercialization.
+
+FORMAT
+ENGINE-EV-BRAND-NEOCODE
+
+NEOCODE MUST:
+- Be descriptive, not promotional
+- Refer to an actual model or structural category
+- Be stable over time
+
+VALID NEOCODE TYPES
+
+1. MODEL-BASED
+Used when adapting a known motorcycle model.
+
+Examples:
+- ACE125
+- YC125
+- GSX125
+
+2. GENERIC
+Used when the platform is a structural category rather than a model.
+
+Examples:
+- Generic-125
+- StepThrough-110
+- Scooter-150
+
+3. FRAME-FOCUSED (Advanced)
+Used when the frame architecture is the primary differentiator.
+
+Examples:
+- Diamond-125
+- Underbone-110
+
+INVALID NEOCODES
+- Pro
+- Official
+- Kit
+- Names
+- V2
+- Startup
+- Commercial
+
+WHY NEOCODE EXISTS
+- Enables comparison across forks
+- Prevents brand capture
+- Keeps educational neutrality
+- Supports long-term evolution
+
+NEOCODE is metadata, not branding.
