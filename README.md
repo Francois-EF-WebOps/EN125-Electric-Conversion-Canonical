@@ -24,6 +24,7 @@ This repository documents an evidence-led engineering study of converting a Suzu
 | [Procurement strategy](07_PROCUREMENT/PROCUREMENT_STRATEGY.md) | Local and external sourcing with alternates |
 | [Verification plan](08_VERIFICATION/VERIFICATION_PLAN.md) | Staged evidence and acceptance |
 | [Thailand regulatory gate](11_LOCALIZATION/THAILAND_REGULATORY.md) | Jurisdiction-specific research |
+| [CUDA signal pipeline](13_CUDA_SIGNAL_PIPELINE/README.md) | Reuse-first CUDA/C++ signal-processing workstream |
 | [Career case study](12_CAREER/CASE_STUDY.md) | Employer-readable engineering narrative |
 
 ## Current engineering decision
@@ -49,7 +50,7 @@ This repository documents an evidence-led engineering study of converting a Suzu
 
 ## Portfolio integrity
 
-This work demonstrates the process and artefacts actually present in the repository. It must not be represented as a completed physical conversion, validated vehicle, certified design, CUDA project or professional engineering approval. See [engineering claims](PORTFOLIO/ENGINEERING_CLAIMS.md).
+This work demonstrates the process and artefacts actually present in the repository. It must not be represented as a completed physical conversion, validated vehicle, certified design, completed GPU benchmark or professional engineering approval. The CUDA folder contains an implementation scaffold, but GPU execution and profiling evidence remain pending. See [engineering claims](PORTFOLIO/ENGINEERING_CLAIMS.md).
 
 ## License
 
