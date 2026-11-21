@@ -1,12 +1,13 @@
 # Suzuki EN125 Electric Conversion — Engineering Portfolio
 
+**Implementation location:** Mauritius.  
 **Status:** Engineering dossier in development; desk-study and simulation scope only until evidence, competent review and applicable approvals are complete.  
 **Canonical baseline:** `louis` branch, preserved.  
 **Portfolio workstream:** `portfolio/en125-engineering-dossier`.
 
-This repository documents an evidence-led engineering study of converting a Suzuki EN125 motorcycle from internal-combustion propulsion to battery-electric propulsion. It is also a practical portfolio demonstrating systems engineering, requirements traceability, electrical/mechanical integration, embedded-control design, safety engineering, procurement resilience, verification planning, cost modelling and technical documentation.
+This repository documents an evidence-led engineering study of converting a Suzuki EN125 motorcycle from internal-combustion propulsion to battery-electric propulsion. The implementation is intended for Mauritius. The dossier combines documented conversion precedents, EN125-specific sizing, local capability discovery, supplier qualification, mechanical/electrical integration, safety and verification planning.
 
-> **Safety and legal boundary:** This repository is not a certified conversion design, construction manual, approved kit, roadworthiness certificate or permission to modify or operate a vehicle. No traction-battery assembly, high-voltage wiring, energisation, road testing or public-road use is authorised by these documents. Obtain current written guidance from the relevant authority and qualified, appropriately licensed professionals before physical work.
+> **Safety and legal boundary:** This repository is not a certified conversion design, construction manual, approved kit, roadworthiness certificate or permission to operate a vehicle. Engineering feasibility, packaging, sourcing and prototype planning can proceed as separate workstreams. Traction-battery assembly, high-voltage work, energisation and vehicle testing require qualified personnel, appropriate facilities and approved procedures. Public-road use requires separate statutory and insurance clearance.
 
 ## Project navigation
 
@@ -14,6 +15,11 @@ This repository documents an evidence-led engineering study of converting a Suzu
 |---|---|
 | [Project brief](PORTFOLIO/PROJECT_BRIEF.md) | Scope, outputs, status and portfolio claims |
 | [Engineering claims](PORTFOLIO/ENGINEERING_CLAIMS.md) | What can and cannot be claimed |
+| [Integrated proven conversion path](14_PROVEN_CONVERSION_PATH/INTEGRATED_DESIGN_PATH.md) | Evidence-led architecture and end-to-end implementation sequence |
+| [Proven conversion cases](14_PROVEN_CONVERSION_PATH/PROVEN_CASES_AND_EVIDENCE.md) | University, builder and measured conversion precedents |
+| [EN125 sizing method](14_PROVEN_CONVERSION_PATH/EN125_SIZING_METHOD.md) | Road-load, motor, gearing and battery sizing |
+| [Mauritius implementation](11_LOCALIZATION/MAURITIUS_IMPLEMENTATION.md) | Local work packages and supplier qualification |
+| [Mauritius supplier leads](11_LOCALIZATION/MAURITIUS_SUPPLIER_LEADS.csv) | Discovery register; all leads unqualified |
 | [Requirements register](01_REQUIREMENTS/REQUIREMENTS_REGISTER.csv) | Traceable requirements and evidence status |
 | [Baseline measurements](01_REQUIREMENTS/BASELINE_MEASUREMENTS.csv) | Vehicle-specific inputs; blanks are intentional |
 | [System architecture](02_ARCHITECTURE/SYSTEM_ARCHITECTURE.md) | System boundary and interfaces |
@@ -23,22 +29,23 @@ This repository documents an evidence-led engineering study of converting a Suzu
 | [Hazard register](06_SAFETY/HAZARD_REGISTER.csv) | Risks, controls and verification |
 | [Procurement strategy](07_PROCUREMENT/PROCUREMENT_STRATEGY.md) | Local and external sourcing with alternates |
 | [Verification plan](08_VERIFICATION/VERIFICATION_PLAN.md) | Staged evidence and acceptance |
-| [Thailand regulatory gate](11_LOCALIZATION/THAILAND_REGULATORY.md) | Jurisdiction-specific research |
 | [CUDA signal pipeline](13_CUDA_SIGNAL_PIPELINE/README.md) | Reuse-first CUDA/C++ signal-processing workstream |
 | [Career case study](12_CAREER/CASE_STUDY.md) | Employer-readable engineering narrative |
 
 ## Current engineering decision
 
-**HOLD — design definition and evidence gathering only.** The repository does not yet contain verified EN125-specific baseline dimensions, a confirmed conversion configuration, supplier-approved component pairings, calculations signed by a competent engineer or vehicle test results. These are explicit gaps, not assumed facts.
+**HOLD — design definition and evidence gathering only.** A mid-drive motor with a single chain reduction is the preferred baseline concept because it is demonstrated in documented motorcycle conversions. It is not yet an EN125-specific approved design. Exact donor dimensions, mission profile, motor/controller pairing, battery design, fabrication drawings and tests remain open.
 
 ## How to use this repository
 
 1. Read [KIT.md](KIT.md), [LICENSE_CONTEXT.md](LICENSE_CONTEXT.md) and [project scope](00_CONTEXT/PROJECT_SCOPE.md).
-2. Confirm the exact donor model/year and gather measured baseline data.
-3. Populate requirements and evidence registers before selecting components.
-4. Obtain written jurisdiction-specific guidance before procurement or modification.
-5. Have mechanical and electrical designs reviewed by competent professionals.
-6. Execute only approved, staged tests and preserve raw evidence.
+2. Confirm the exact EN125 year/variant and gather measured baseline data in Mauritius.
+3. Freeze the intended duty cycle and calculate road load before selecting components.
+4. Use documented conversions as evidence, not as parts lists to copy.
+5. Qualify local fabricators and specialist component/battery suppliers against exact requirements.
+6. Have mechanical and electrical designs reviewed by competent professionals.
+7. Execute only controlled, staged tests and preserve raw evidence.
+8. Maintain statutory approval and insurance as a separate road-use release workstream.
 
 ## Evidence vocabulary
 
