@@ -1,0 +1,19 @@
+req_id,domain,requirement,verification_method,source_or_basis,status,owner,notes
+REQ-001,Identity,Exact donor motorcycle year and variant shall be recorded,Document inspection and photographs,Vehicle registration/manual/identification plate,OPEN,Project,Do not publish VIN or registration identifiers
+REQ-002,Use case,Target route speed payload duty cycle and charging context shall be defined,Use-case review,Owner-approved operating profile,OPEN,Project,No range or power sizing before this
+REQ-003,Baseline,Vehicle mass and maximum permitted mass shall be evidenced,Weighing and document check,Vehicle plate/manual/registration,OPEN,Mechanical,Record instrument and date
+REQ-004,Mechanical,Motor mount loads shall be calculated for peak torque and vibration,Calculation and professional review,Motor datasheet and measured frame geometry,OPEN,Mechanical,No mount dimensions assumed
+REQ-005,Mechanical,Battery and motor mass distribution shall preserve acceptable handling and load limits,Mass-property calculation and review,Measured baseline and selected component data,OPEN,Mechanical,Include axle load implications
+REQ-006,Mechanical,Braking performance shall be no worse than accepted baseline and applicable law,Inspection and approved test,Applicable DLT rules and qualified review,OPEN,Mechanical,No road test before approval
+REQ-007,Electrical,Traction and auxiliary power domains shall be documented,Design review,Schematic and component datasheets,OPEN,Electrical,Voltage/current ratings not yet selected
+REQ-008,Electrical,Overcurrent protection shall be coordinated with conductors and components,Calculation and review,Component curves/datasheets and applicable standards,OPEN,Electrical,No fuse values guessed
+REQ-009,Electrical,Isolation and emergency shutdown concept shall be documented,Design review and controlled test,Applicable rules and qualified engineering review,OPEN,Electrical,Live tests require qualified facility
+REQ-010,Battery,Pack safety evidence and BMS fault responses shall be available,Document review and approved test,Manufacturer test/certification evidence,OPEN,Battery,Cell-level claims are insufficient
+REQ-011,Battery,Charger shall be compatible with exact pack chemistry and BMS limits,Document review and test,Pack and charger manufacturer documentation,OPEN,Battery,No universal charger assumption
+REQ-012,Control,Unexpected propulsion shall be prevented by interlocks and fault handling,State-machine review and fault injection in safe simulator,Control,OPEN,Control,Define safe state and reset policy
+REQ-013,Environment,Ingress corrosion vibration and temperature limits shall be suitable for local use,Environmental review and evidence,Manufacturer ratings and route conditions,OPEN,Engineering,IP rating alone is not whole-system qualification
+REQ-014,Serviceability,Consumables and critical spares shall have at least one qualified alternate source,Procurement audit,Approved supplier register,OPEN,Procurement,Alternate must be technically interchangeable
+REQ-015,Legal,Applicable vehicle category and conversion approval path shall be confirmed in writing,Authority determination,Current DLT and Gazette instruments,OPEN,Regulatory,Separate Motor Vehicle Act and Land Transport Act
+REQ-016,Verification,Every safety-critical requirement shall have an acceptance criterion and evidence record,Traceability audit,Requirements and verification registers,OPEN,Verification,No pass by document presence alone
+REQ-017,Economics,Conversion shall be compared with petrol and factory-EV alternatives on equivalent workload,Model review,Local quotes and measured use data,OPEN,Economics,Include downtime and battery replacement
+REQ-018,Documentation,Final owner and emergency documentation shall describe actual configuration,Document inspection,As-built record and professional sign-off,OPEN,Documentation,Only after a real build
