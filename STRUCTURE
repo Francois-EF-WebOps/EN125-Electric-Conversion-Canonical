@@ -29,22 +29,33 @@ This index describes the current engineering portfolio workstream. A path is not
 ├── 09_ECONOMICS/TCO_MODEL.md
 ├── 10_CONTROL_SOFTWARE/CONTROL_ARCHITECTURE.md
 ├── 11_LOCALIZATION/
-│   ├── THAILAND_REGULATORY.md
-│   └── THAILAND_PROCUREMENT.md
+│   ├── MAURITIUS_IMPLEMENTATION.md
+│   ├── MAURITIUS_SUPPLIER_LEADS.csv
+│   ├── THAILAND_REGULATORY.md       # historical research, not implementation jurisdiction
+│   └── THAILAND_PROCUREMENT.md      # historical research, not implementation jurisdiction
 ├── 12_CAREER/
 │   ├── CASE_STUDY.md
 │   └── ROLE_ALIGNMENT.md
+├── 13_CUDA_SIGNAL_PIPELINE/
+│   ├── README.md
+│   ├── UPSTREAM_RESOURCES.md
+│   └── fir_benchmark.cu
+├── 14_PROVEN_CONVERSION_PATH/
+│   ├── INTEGRATED_DESIGN_PATH.md
+│   ├── PROVEN_CASES_AND_EVIDENCE.md
+│   └── EN125_SIZING_METHOD.md
 ├── 99_TEMPLATES/
 │   ├── EVIDENCE_REGISTER.csv
 │   └── PROCUREMENT_SUPPLIER_REGISTER.csv
 ├── scripts/validate_repo.py
-├── .github/workflows/validate.yml
-└── CABO_VERDE_ADAPTATION/  # separate jurisdictional research package
+└── .github/workflows/validate.yml
 ```
 
 ## Governance
 - `louis` remains the preserved v1.0 canonical baseline.
 - Portfolio development takes place on `portfolio/en125-engineering-dossier`.
 - New material is an additive, versioned engineering workstream; it does not silently rewrite the frozen baseline.
+- Mauritius is the implementation location for this project.
+- Thailand files are retained as historical research only; they do not define the implementation location or supplier plan.
+- Engineering feasibility and build planning are separate from the statutory/insurance release decision.
 - Any future merge or release must preserve the distinction between canonical educational material, jurisdictional adaptations and the portfolio engineering dossier.
-- `CABO_VERDE_ADAPTATION/` is not a Thailand compliance source.
