@@ -1,0 +1,17 @@
+measurement_id,parameter,value,unit,method,instrument_or_source,measured_by,date,uncertainty,photo_or_evidence_ref,status
+BASE-001,Donor model year,,year,Registration/manual inspection,,,,,,OPEN
+BASE-002,Donor variant/market,,text,Frame/engine identification,,,,,,OPEN
+BASE-003,Unladen vehicle mass,,kg,Calibrated weighing,,,,,,OPEN
+BASE-004,Front axle load,,kg,Calibrated axle scales,,,,,,OPEN
+BASE-005,Rear axle load,,kg,Calibrated axle scales,,,,,,OPEN
+BASE-006,Maximum permitted gross mass,,kg,Registration/manual/plate,,,,,,OPEN
+BASE-007,Wheelbase,,mm,Physical measurement,,,,,,OPEN
+BASE-008,Front/rear tyre size,,text,Sidewall inspection,,,,,,OPEN
+BASE-009,Brake configuration,,text,Physical inspection/manual,,,,,,OPEN
+BASE-010,Frame material and section data,,text,Manufacturer evidence/inspection,,,,,,OPEN
+BASE-011,Engine mass and mount geometry,,kg; mm,Removal data or verified reference,,,,,,OPEN
+BASE-012,Available battery packaging envelope,,mm,Measured 3D envelope,,,,,,OPEN
+BASE-013,Target daily distance,,km/day,Use-case log,,,,,,OPEN
+BASE-014,Maximum route gradient,,%,Route survey/map plus validation,,,,,,OPEN
+BASE-015,Target payload,,kg,Use-case definition,,,,,,OPEN
+BASE-016,Charging access and electrical supply,,text,Site inspection and utility data,,,,,,OPEN
