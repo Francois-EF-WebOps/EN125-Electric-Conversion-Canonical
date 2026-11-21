@@ -1,0 +1,8 @@
+item_id,system,description,manufacturer,exact_model,revision,quantity,criticality,required_rating,interface,primary_supplier,alternate_supplier,datasheet_url,compliance_evidence,compatibility_evidence,quote_currency,unit_price,shipping,duties_tax,lead_time,warranty,traceability,approval_status,notes
+BOM-001,Traction motor,TBD,,,,,SAFETY_CRITICAL,TBD,TBD,,,,,,,,,,,,,NOT_APPROVED,No selection until duty cycle and mount analysis
+BOM-002,Motor controller/inverter,TBD,,,,,SAFETY_CRITICAL,TBD,TBD,,,,,,,,,,,,,NOT_APPROVED,Must match motor and battery envelope
+BOM-003,Traction battery pack,TBD,,,,,SAFETY_CRITICAL,TBD,TBD,,,,,,,,,,,,,NOT_APPROVED,Require pack-level evidence and BMS
+BOM-004,BMS,TBD,,,,,SAFETY_CRITICAL,TBD,TBD,,,,,,,,,,,,,NOT_APPROVED,Must be specified as part of pack system
+BOM-005,Charger,TBD,,,,,SAFETY_CRITICAL,TBD,TBD,,,,,,,,,,,,,NOT_APPROVED,Exact chemistry and pack compatibility required
+BOM-006,DC/DC converter,TBD,,,,,SAFETY_RELEVANT,TBD,TBD,,,,,,,,,,,,,NOT_APPROVED,Size after auxiliary load budget
+BOM-007,Protection and isolation,TBD,,,,,SAFETY_CRITICAL,TBD,TBD,,,,,,,,,,,,,NOT_APPROVED,Selection requires fault and coordination calculations
