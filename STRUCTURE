@@ -1,62 +1,50 @@
-CANONICAL FOLDER STRUCTURE
+# Repository structure
 
-This repository follows a staged, phase-based structure and this document
-serves as the normative directory guide.
+This index describes the current engineering portfolio workstream. A path is not implemented merely because it appears in a future plan.
 
-Root
-│
+```text
+.
 ├── README.md
-├── FREEZE.md
-├── FORKING_RULES.md
+├── KIT.md
 ├── LICENSE
 ├── LICENSE_CONTEXT.md
-├── STRUCTURE.md
-│
-├── 00_CONTEXT/
-│   ├── project_intent.md
-│   ├── scope_and_limits.md
-│   └── regulatory_notes_mauritius.md
-│
-├── 01_STAGE_FOUNDATION/
-│   ├── assumptions_and_constraints.md
-│   ├── safety_principles.md
-│   └── tools_and_skill_baseline.md
-│
-├── 02_STAGE_MECHANICAL/
-│   ├── frame_analysis.md
-│   ├── frame_reinforcement_concept.md
-│   ├── motor_mounting.md
-│   └── torque_and_fasteners.md
-│
-├── 03_STAGE_ELECTRICAL/
-│   ├── system_architecture.md
-│   ├── controller_canonical_profile.md
-│   ├── wiring_and_protection.md
-│   └── dc_dc_and_auxiliary.md
-│
-├── 04_STAGE_BATTERY/
-│   ├── battery_safety.md
-│   ├── swap_ready_form_factor.md
-│   ├── bms_and_protection.md
-│   └── inspection_and_maintenance.md
-│
-├── 05_STAGE_INTEGRATION/
-│   ├── system_checks.md
-│   ├── failure_modes.md
-│   └── first_power_on.md
-│
-├── 06_STAGE_OPERATION/
-│   ├── riding_limits.md
-│   ├── maintenance_schedule.md
-│   └── long_term_degradation.md
-│
-├── 07_ALTERNATIVES/
-│   ├── motor_alternatives.md
-│   ├── battery_chemistry_alternatives.md
-│   ├── frame_variants.md
-│   └── low_resource_paths.md
-│
-└── 99_APPENDICES/
-    ├── glossary.md
-    ├── measurement_templates.md
-    └── student_notes.md
+├── FREEZE.md
+├── STRUCTURE
+├── PORTFOLIO/
+│   ├── PROJECT_BRIEF.md
+│   └── ENGINEERING_CLAIMS.md
+├── 00_CONTEXT/PROJECT_SCOPE.md
+├── 01_REQUIREMENTS/
+│   ├── REQUIREMENTS_REGISTER.csv
+│   └── BASELINE_MEASUREMENTS.csv
+├── 02_ARCHITECTURE/SYSTEM_ARCHITECTURE.md
+├── 03_MECHANICAL/MECHANICAL_DESIGN_BASIS.md
+├── 04_ELECTRICAL/ELECTRICAL_DESIGN_BASIS.md
+├── 05_BATTERY/BATTERY_BMS_REQUIREMENTS.md
+├── 06_SAFETY/HAZARD_REGISTER.csv
+├── 07_PROCUREMENT/
+│   ├── PROCUREMENT_STRATEGY.md
+│   └── BOM_TEMPLATE.csv
+├── 08_VERIFICATION/VERIFICATION_PLAN.md
+├── 09_ECONOMICS/TCO_MODEL.md
+├── 10_CONTROL_SOFTWARE/CONTROL_ARCHITECTURE.md
+├── 11_LOCALIZATION/
+│   ├── THAILAND_REGULATORY.md
+│   └── THAILAND_PROCUREMENT.md
+├── 12_CAREER/
+│   ├── CASE_STUDY.md
+│   └── ROLE_ALIGNMENT.md
+├── 99_TEMPLATES/
+│   ├── EVIDENCE_REGISTER.csv
+│   └── PROCUREMENT_SUPPLIER_REGISTER.csv
+├── scripts/validate_repo.py
+├── .github/workflows/validate.yml
+└── CABO_VERDE_ADAPTATION/  # separate jurisdictional research package
+```
+
+## Governance
+- `louis` remains the preserved v1.0 canonical baseline.
+- Portfolio development takes place on `portfolio/en125-engineering-dossier`.
+- New material is an additive, versioned engineering workstream; it does not silently rewrite the frozen baseline.
+- Any future merge or release must preserve the distinction between canonical educational material, jurisdictional adaptations and the portfolio engineering dossier.
+- `CABO_VERDE_ADAPTATION/` is not a Thailand compliance source.
